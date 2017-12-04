@@ -1,0 +1,11 @@
+.Checkbox {
+    @include checkbox();
+
+    display: inline;
+
+    &-label {
+        text-align: left;
+        color: $black;
+        vertical-align: middle;
+    }
+}

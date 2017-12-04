@@ -1,0 +1,7 @@
+.Radio {
+    @include checkbox();
+
+    &-input {
+        top: initial;
+    }
+}
